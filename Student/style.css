@@ -1,0 +1,116 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	font:90% calibri,sans-serif;
+	text-align:center;
+}
+div#header{
+	background-color:#f3f2ed;
+}
+div#header h1{
+	height:80px;
+	line-height:80px;
+	margin:0;
+	padding-left:10px;
+	
+}
+div#container{
+	height:auto;
+	width:700px;
+	margin:0 auto;
+	text-align:left;
+}
+div#wrapper{
+	float:right;
+	width:500px;
+}
+div#wrapper p{
+	line-height:1.5;
+	text-align:left;
+}
+div#navi{
+	float:left;
+	height:400px;
+	width:150px;
+	background:#BFBD93;
+}
+div#navi ul{
+	margin-left:12px;
+	list-style-type:square
+;
+}
+div#navi li{
+	margin-bottom:5px;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover{
+	color:green;
+}
+div#up{
+	height:auto;
+	width:300px;
+	margin-left:100px;
+}
+label,input,button,select,textarea{
+	display:block;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+}
+table{
+	width:100%;
+}
+table td,table th{
+	padding:5px;
+	border:1px solid #ddd;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.buttonup {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+.buttonup:hover {
+    background-color: #008CBA;
+    color: white;
+}
